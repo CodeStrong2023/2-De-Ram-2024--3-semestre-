@@ -1,4 +1,4 @@
-package TercerSemestre.Leccion2.ArgumentosVariables.src.test;
+package test;
 
 public class TestArgumentosVariables {
     public static void main(String[] args) {
