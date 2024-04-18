@@ -18,3 +18,18 @@ Repositorio de ejercicios y trabajos.
 ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white) <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+
+### Integrantes:
+
+| nombre |
+| ------ |
+
+Gianni Pasquinelli
+Luis Mera
+Lorena Artieda
+Ramón Ramos
+Ignacio Dahuc
+Alan Pesalaccia
+Santiago Villarreal
+Santiago Rosales
+juan lara
