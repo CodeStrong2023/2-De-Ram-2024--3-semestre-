@@ -30,5 +30,3 @@ if __name__ == '__main__':
     print(producto1)
     producto2 = Producto('Pantalon', 150.00)
     print(producto2)
-
-
