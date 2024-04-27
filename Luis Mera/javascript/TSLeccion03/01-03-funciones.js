@@ -18,3 +18,4 @@ const sumarFuncionFlecha = (a, b) => a + b;
 console.log(sumarFuncionFlecha(2, 5));
 
 let resultado2 = sumarFuncionFlecha(3,4);
+
