@@ -28,4 +28,7 @@ console.log(autos);
 autos[6] = 'Renault';
 console.log(autos);
 
+//preguntar si es un array o arreglo
+console.log(Array.isArray(autos)); //respuesta booleana
 
+console.log(autos instanceof Array);
