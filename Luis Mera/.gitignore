@@ -1,3 +1,20 @@
 /JAVA/Lección01/MundoPc/nbproject/private/
 /JAVA/Lección01/MundoPc/build/
+<<<<<<< HEAD:.gitignore
+/GianniPasquinelli/JAVA/Nueva Carpeta/ArgumentosVariables/nbproject/private/
+/GianniPasquinelli/JAVA/Nueva Carpeta/ArgumentosVariables/build/
+/GianniPasquinelli/JAVA/Nueva Carpeta/Enumeraciones/nbproject/private/
+/GianniPasquinelli/JAVA/Nueva Carpeta/Enumeraciones/build/
+/GianniPasquinelli/JAVA/Nueva Carpeta/BloquesInicializacion/nbproject/private/
+/GianniPasquinelli/JAVA/Nueva Carpeta/BloquesInicializacion/build/
+/GianniPasquinelli/JAVA/Leccion03/ForEach/nbproject/private/
+/GianniPasquinelli/JAVA/Leccion03/ForEach/build/
+/GianniPasquinelli/JAVA/Leccion03/AutoboxingUnboxing/nbproject/private/
+/GianniPasquinelli/JAVA/Leccion03/ModificadoresDeAcceso/nbproject/private/
+/GianniPasquinelli/JAVA/Leccion03/ModificadoresDeAcceso/build/
+=======
+/java/Leccion1/MundoPc/nbproject/private/
+>>>>>>> 8f4a23decaee374e881c7ef15082f996ea6d1fd2:Luis Mera/.gitignore
+/JAVA/Lección01/MundoPc/nbproject/private/
+/JAVA/Lección01/MundoPc/build/
 /java/Leccion1/MundoPc/nbproject/private/
