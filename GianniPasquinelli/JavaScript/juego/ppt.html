@@ -1,0 +1,40 @@
+<body>
+  <h1>Juego de Piedra, Papel o Tijeras</h1>
+  <button onclick="jugar('piedra')">Piedra</button>
+  <button onclick="jugar('papel')">Papel</button>
+  <button onclick="jugar('tijeras')">Tijeras</button>
+  <p id="resultado"></p>
+  <p id="puntaje"></p>
+
+  <script>
+    var puntaje = 0;
+
+    function jugar(eleccionUsuario) {
+      var eleccionMaquina = Math.random();
+      if (eleccionMaquina < 0.34) {
+        eleccionMaquina = 'piedra';
+      } else if (eleccionMaquina <= 0.67) {
+        eleccionMaquina = 'papel';
+      } else {
+        eleccionMaquina = 'tijeras';
+      }
+
+      var resultado = '';
+      if (eleccionUsuario === eleccionMaquina) {
+        resultado = 'Empate!';
+      } else if (
+        (eleccionUsuario === 'piedra' && eleccionMaquina === 'tijeras') ||
+        (eleccionUsuario === 'papel' && eleccionMaquina === 'piedra') ||
+        (eleccionUsuario === 'tijeras' && eleccionMaquina === 'papel')
+      ) {
+        resultado = 'Ganaste!';
+        puntaje++;
+      } else {
+        resultado = 'Perdiste!';
+      }
+
+      document.getElementById('resultado').innerText = 'Elegiste ' + eleccionUsuario + '. La máquina eligió ' + eleccionMaquina + '. ' + resultado;
+      document.getElementById('puntaje').innerText = 'Tu puntaje es ' + puntaje;
+    }
+  </script>
+</body>
