@@ -1,4 +1,3 @@
-
 class Pelicula:
     def __init__(self, nombre):
         self._nombre = nombre
@@ -13,4 +12,3 @@ class Pelicula:
     @nombre.setter
     def nombre(self, nombre):
         self._nombre = nombre
-    
