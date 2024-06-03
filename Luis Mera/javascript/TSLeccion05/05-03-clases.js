@@ -1,7 +1,21 @@
 class Persona {
+  static contadorPersonas = 0;
+  // email = "Valor default email";
+  static get MAX_OBJ() { // Metodo estatico
+    return 5;
+  }
+
   constructor(nombre, apellido) {
     this._nombre = nombre;
     this._apellido = apellido;
+    Persona.contadorPersonas++;
+    this.idPersona = ++Persona.contadorPersonas;
+    // console.log("Se incrementa contador: " + Persona.contadorPersonas);
+    if (Persona.contadorPersonas > Persona.MAX_OBJ) {
+      console.log("Se ha superado el maximo de objetos permitidos");
+    } else {
+      console.log("Se ha creado el objeto persona: " + this.nombreCompleto());
+    }
   }
 
   get nombre() {
@@ -21,13 +35,22 @@ class Persona {
   }
 
   nombreCompleto() {
-    return this._nombre + " " + this._apellido;
+    return this.idPersona + " " + this._nombre + " " + this._apellido;
   }
 
   // Sobreescritura del metodo de la clase padre (Object)
   toString() {
     return this.nombreCompleto();
   }
+
+  static saludar() {
+    console.log("Saludos desde el metodo estatico");
+  }
+
+  static saludar2(persona) {
+    console.log(persona.nombre + " " + persona.apellido);
+  }
+
 }
 
 class Empleado extends Persona {
@@ -85,3 +108,24 @@ console.log(empleado2.nombreCompleto());
 
 console.log(empleado1.toString());
 console.log(persona1.toString());
+
+Persona.saludar();
+Persona.saludar2(persona1);
+Persona.saludar2(persona2);
+Persona.saludar2(empleado1);
+
+console.log("Contador Personas: " + Persona.contadorPersonas);
+
+// console.log(empleado1.email);
+// console.log(persona1.email);
+
+
+let persona3 = new Persona("Carla", "Perstosi");
+console.log(persona3.toString());
+console.log("Contador Personas: " + Persona.contadorPersonas);
+
+
+console.log(Persona.MAX_OBJ);
+
+let persona4 = new Persona("Pedro", "Infante");
+console.log(persona4.toString());
