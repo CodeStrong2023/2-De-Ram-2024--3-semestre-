@@ -1,0 +1,10 @@
+Agregando información al archivo
+otra linea agregada
+letra r(read)
+a(append)
+w(write)
+x(create)
+letra t(text)
+b(binary)
+w+ o r+ (lectura y escritura)
+finish
