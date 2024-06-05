@@ -8,11 +8,15 @@ conexion = psycopg2.connect(
     port='5432',
     database='test_bd'
 )
-
-cursor = conexion.cursor()
-sentencia = 'SELECT * FROM persona'
-cursor.execute(sentencia)  # ejecucion de sentencia
-registros = cursor.fetchall()  # recuperacion de los registros como lista
-print(registros)
-cursor.close()
-conexion.close()
+try:
+    with conexion:
+        with conexion.cursor() as cursor:
+            sentencia = 'SELECT * FROM persona WHERE id_persona = %s'  # placeholder
+            id_persona = input('Digite un número para el id_persona >')
+            cursor.execute(sentencia, (id_persona,))  # ejecucion de sentencia
+            registros = cursor.fetchone()  # recuperacion de los registros como lista
+            print(registros)
+except Exception as e:
+    print(f'ocurrió un error: {e}')
+finally:
+    conexion.close()
