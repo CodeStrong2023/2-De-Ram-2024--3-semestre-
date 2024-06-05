@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b4435bb-394a-40a1-aa7f-cc516d08bb28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Clase5/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Clase5/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Clase5/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Clase5/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Clase5/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Clase5/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Clase5/src/clase5/Clase5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio5/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio5/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio5/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio5/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio5/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio5/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio5/src/ejercicio5/Ejercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio6/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio6/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio6/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio6/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio6/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio6/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio6/src/ejercicio6/Ejercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio7/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio7/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio7/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio7/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio7/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio7/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/Ejercicio7/src/ejercicio7/Ejercicio7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo/src/HolaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo2/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo2/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo2/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo2/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo2/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo2/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/HolaMundo2/src/holamundo2/HolaMundo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/S2C1 ciclos/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/S2C1 ciclos/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/S2C1 ciclos/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/S2C1 ciclos/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/S2C1 ciclos/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/S2C1 ciclos/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/S2C1 ciclos/src/s2c1/ciclos/S2C1Ciclos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 4 tipos primitivos/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 4 tipos primitivos/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 4 tipos primitivos/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 4 tipos primitivos/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 4 tipos primitivos/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 4 tipos primitivos/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 4 tipos primitivos/src/clase/pkg4/tipos/primitivos/Clase4TiposPrimitivos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 8/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 8/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 8/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 8/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 8/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 8/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase 8/src/clase/pkg8/Clase8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase10Java/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase10Java/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase10Java/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase10Java/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase10Java/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase10Java/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase10Java/src/clase10java/Clase10Java.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/build/classes/clase/pkg3/variables/Clase3Variables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase3Variables/src/clase/pkg3/variables/Clase3Variables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase6/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase6/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase6/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase6/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase6/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase6/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase6/src/clase6/Clase6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase6/src/clase6/edad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase7/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase7/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase7/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase7/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase7/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase7/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/clase7/src/clase7/Clase7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio1Java/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio1Java/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio1Java/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio1Java/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio1Java/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio1Java/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio1Java/src/ejercicio1java/Ejercicio1Java.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio2Java/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio2Java/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio2Java/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio2Java/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio2Java/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio2Java/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio2Java/src/ejercicio2java/Ejercicio2Java.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio3Java/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio3Java/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio3Java/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio3Java/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio3Java/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio3Java/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio3Java/src/ejercicio3java/Ejercicio3Java.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio_1/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio_1/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio_1/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio_1/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio_1/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio_1/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejercicio_1/src/ejercicio_1/Ejercicio_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejerciciosCiclos01/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejerciciosCiclos01/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejerciciosCiclos01/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejerciciosCiclos01/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejerciciosCiclos01/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejerciciosCiclos01/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejerciciosCiclos01/src/ejerciciosciclos01/EjerciciosCiclos01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejerciciosCiclos02/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/ejerciciosCiclos02/src/main/java/com/mycompany/ejerciciosciclos02/EjerciciosCiclos02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2clase6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección 4/.idea/Lección 4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección 4/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección 4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección 4/leccion4/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección 4/leccion4/clase1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SPD git clase 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clase 3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clase4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicio3python/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ejercicioClase3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../leccion1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonClase7/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonClase7Ejercicios/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonClase7Ejercicios/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonClase7Ejercicios/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonClase7Ejercicios/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pythonProject/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2gmbCs6yeCMXFVeSkMhITYNt7bB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "java",
+    "last_opened_file_path": "C:/Users/USUARIO/clase1/python/tercer semestre/Leccion11"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b4435bb-394a-40a1-aa7f-cc516d08bb28" name="Changes" comment="" />
+      <created>1716305575938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716305575938</updated>
+    </task>
+    <servers />
+  </component>
+</project>
