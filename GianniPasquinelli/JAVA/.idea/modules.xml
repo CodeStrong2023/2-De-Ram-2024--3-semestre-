@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Leccion02/ArgumentosVariables/ArgumentosVariables.iml" filepath="$PROJECT_DIR$/Leccion02/ArgumentosVariables/ArgumentosVariables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion03/AutoboxingUnboxing/AutoboxingUnboxing.iml" filepath="$PROJECT_DIR$/Leccion03/AutoboxingUnboxing/AutoboxingUnboxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion02/BloquesInicializacion/BloquesInicializacion.iml" filepath="$PROJECT_DIR$/Leccion02/BloquesInicializacion/BloquesInicializacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion02/Enumeraciones/Enumeraciones.iml" filepath="$PROJECT_DIR$/Leccion02/Enumeraciones/Enumeraciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion03/ForEach/ForEach.iml" filepath="$PROJECT_DIR$/Leccion03/ForEach/ForEach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lección01/Lección01.iml" filepath="$PROJECT_DIR$/Lección01/Lección01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leccion03/ModificadoresDeAcceso/ModificadoresDeAcceso.iml" filepath="$PROJECT_DIR$/Leccion03/ModificadoresDeAcceso/ModificadoresDeAcceso.iml" />
+    </modules>
+  </component>
+</project>
