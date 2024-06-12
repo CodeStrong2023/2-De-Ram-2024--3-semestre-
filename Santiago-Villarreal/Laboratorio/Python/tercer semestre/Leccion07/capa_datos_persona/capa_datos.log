@@ -1,0 +1,5 @@
+08: 45: 27: PM:DEBUG:[logger_base.py:12]Mensaje a nivel debug
+08: 45: 27: PM:INFO:[logger_base.py:13]Mensaje a nivel info
+08: 45: 27: PM:WARNING:[logger_base.py:14]Mensaje a nivel warning
+08: 45: 27: PM:ERROR:[logger_base.py:15]Mensaje a nivel error
+08: 45: 27: PM:CRITICAL:[logger_base.py:16]Mensaje a nivel critical
