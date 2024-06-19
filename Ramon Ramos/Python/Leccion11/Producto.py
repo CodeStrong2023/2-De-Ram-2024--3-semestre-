@@ -8,6 +8,7 @@ class Producto:
 
 # getter aand setters
 
+
 @property 
 def nombre(self):
     return self._nombre
