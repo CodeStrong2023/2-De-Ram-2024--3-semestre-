@@ -1,5 +1,7 @@
 package domain;
 
+import java.util.Objects;
+
 public class Empleado {
     protected String nombre;
     protected double sueldo;
@@ -27,5 +29,18 @@ public class Empleado {
 
     public void setSueldo(double sueldo) {
         this.sueldo = sueldo;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Empleado)) return false;
+        Empleado empleado = (Empleado) o;
+        return Double.compare(getSueldo(), empleado.getSueldo()) == 0 && Objects.equals(getNombre(), empleado.getNombre());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getNombre(), getSueldo());
     }
 }

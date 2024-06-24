@@ -26,4 +26,5 @@ public class Escritor extends Empleado {
     public TipoEscritura getTipoEscritura(){
         return this.tipoEscritura;
     }
+
 }
