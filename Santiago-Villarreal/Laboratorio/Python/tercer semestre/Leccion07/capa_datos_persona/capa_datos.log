@@ -66,3 +66,165 @@
 09: 09: 46: PM:ERROR:[Conexion.py:42]Ocurrió un error: type object 'Conexion' has no attribute 'cursor'
 09: 10: 21: PM:DEBUG:[Conexion.py:25]Conexion exitosa: <connection object at 0x000001F291D9DF10; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
 09: 10: 21: PM:DEBUG:[Conexion.py:39]Se abrió correctamente el cursor: <cursor object at 0x000001F291D30660; closed: 0>
+08: 39: 10: PM:DEBUG:[Conexion.py:25]Conexion exitosa: <connection object at 0x00000163BDD63010; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08: 39: 10: PM:DEBUG:[Conexion.py:39]Se abrió correctamente el cursor: <cursor object at 0x00000163BFC93D80; closed: 0>
+08: 40: 18: PM:DEBUG:[Conexion.py:25]Conexion exitosa: <connection object at 0x0000027E3DC63010; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+08: 40: 18: PM:DEBUG:[Conexion.py:39]Se abrió correctamente el cursor: <cursor object at 0x0000027E3FB8BD80; closed: 0>
+08: 40: 18: PM:DEBUG:[persona_dao.py:35]
+            Id Persona: 1,
+            Nombre: Juan Carlos,
+            Apellido: Roldan
+            Email: jcroldan@mail.com
+        
+08: 40: 18: PM:DEBUG:[persona_dao.py:35]
+            Id Persona: 2,
+            Nombre: Carla,
+            Apellido: Gomez
+            Email: kgomez@mail.com
+        
+08: 40: 18: PM:DEBUG:[persona_dao.py:35]
+            Id Persona: 8,
+            Nombre: Carlos,
+            Apellido: Lara
+            Email: clara@mail.com
+        
+08: 40: 18: PM:DEBUG:[persona_dao.py:35]
+            Id Persona: 9,
+            Nombre: Marcos,
+            Apellido: Canto
+            Email: mcanto@mail.com
+        
+08: 40: 18: PM:DEBUG:[persona_dao.py:35]
+            Id Persona: 10,
+            Nombre: Marcelo,
+            Apellido: Cuenca
+            Email: cuencaM@mail.com
+        
+08: 40: 18: PM:DEBUG:[persona_dao.py:35]
+            Id Persona: 15,
+            Nombre: Maria,
+            Apellido: Esparza
+            Email: mesparza@mail.com
+        
+08: 40: 18: PM:DEBUG:[persona_dao.py:35]
+            Id Persona: 16,
+            Nombre: Carlos,
+            Apellido: Lara
+            Email: clara@mail.com
+        
+08: 40: 18: PM:DEBUG:[persona_dao.py:35]
+            Id Persona: 17,
+            Nombre: Jorge,
+            Apellido: Prolaaaaaaaa
+            Email: jprol@mail.com
+        
+08: 40: 18: PM:DEBUG:[persona_dao.py:35]
+            Id Persona: 18,
+            Nombre: Alex,
+            Apellido: Rojas
+            Email: arojas@mail.com
+        
+09: 38: 03: PM:DEBUG:[Conexion.py:25]Conexion exitosa: <connection object at 0x000001CA11FBE130; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09: 38: 03: PM:DEBUG:[Conexion.py:39]Se abrió correctamente el cursor: <cursor object at 0x000001CA11F47D80; closed: 0>
+09: 38: 03: PM:DEBUG:[persona_dao.py:39]Persona insertada: 
+            Id Persona: None,
+            Nombre: Pedro,
+            Apellido: Romero
+            Email: promero@mail.com
+        
+09: 38: 03: PM:DEBUG:[persona_dao.py:47]Personas insertadas: 1
+09: 43: 15: PM:DEBUG:[Conexion.py:25]Conexion exitosa: <connection object at 0x00000243DEB7E130; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+09: 43: 15: PM:DEBUG:[Conexion.py:39]Se abrió correctamente el cursor: <cursor object at 0x00000243DEB07CA0; closed: 0>
+09: 43: 15: PM:DEBUG:[persona_dao.py:39]Persona insertada: 
+            Id Persona: None,
+            Nombre: Homero,
+            Apellido: Ramos
+            Email: homeror@mail.com
+        
+09: 43: 15: PM:DEBUG:[persona_dao.py:47]Personas insertadas: 1
+10: 19: 20: PM:DEBUG:[Conexion.py:25]Conexion exitosa: <connection object at 0x000001422F386240; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10: 19: 20: PM:DEBUG:[Conexion.py:39]Se abrió correctamente el cursor: <cursor object at 0x000001422F317D80; closed: 0>
+10: 19: 21: PM:DEBUG:[persona_dao.py:49]Persona actualizada: 
+            Id Persona: 1,
+            Nombre: Juan José,
+            Apellido: Pena
+            Email: jjpena@mail.com
+        
+10: 19: 21: PM:DEBUG:[persona_dao.py:57]Personas actualizadas: 1
+10: 28: 02: PM:DEBUG:[Conexion.py:25]Conexion exitosa: <connection object at 0x0000020FE3C4E130; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10: 28: 02: PM:DEBUG:[Conexion.py:39]Se abrió correctamente el cursor: <cursor object at 0x0000020FE3BD7D80; closed: 0>
+10: 28: 02: PM:DEBUG:[persona_dao.py:58]Los objetos eliminados son: 
+            Id Persona: 13,
+            Nombre: None,
+            Apellido: None
+            Email: None
+        
+10: 28: 02: PM:DEBUG:[persona_dao.py:68]Personas eliminadas: 0
+10: 44: 33: PM:DEBUG:[Conexion.py:25]Conexion exitosa: <connection object at 0x00000153F9213010; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10: 44: 33: PM:DEBUG:[Conexion.py:39]Se abrió correctamente el cursor: <cursor object at 0x00000153FB15BD80; closed: 0>
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 1,
+            Nombre: Juan José,
+            Apellido: Pena
+            Email: jjpena@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 2,
+            Nombre: Carla,
+            Apellido: Gomez
+            Email: kgomez@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 8,
+            Nombre: Carlos,
+            Apellido: Lara
+            Email: clara@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 9,
+            Nombre: Marcos,
+            Apellido: Canto
+            Email: mcanto@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 10,
+            Nombre: Marcelo,
+            Apellido: Cuenca
+            Email: cuencaM@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 15,
+            Nombre: Maria,
+            Apellido: Esparza
+            Email: mesparza@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 16,
+            Nombre: Carlos,
+            Apellido: Lara
+            Email: clara@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 17,
+            Nombre: Jorge,
+            Apellido: Prolaaaaaaaa
+            Email: jprol@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 18,
+            Nombre: Alex,
+            Apellido: Rojas
+            Email: arojas@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 19,
+            Nombre: Pedro,
+            Apellido: Romero
+            Email: promero@mail.com
+        
+10: 44: 33: PM:DEBUG:[persona_dao.py:88]
+            Id Persona: 20,
+            Nombre: Homero,
+            Apellido: Ramos
+            Email: homeror@mail.com
+        
