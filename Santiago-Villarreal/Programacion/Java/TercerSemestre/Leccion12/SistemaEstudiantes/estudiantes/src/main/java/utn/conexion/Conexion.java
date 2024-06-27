@@ -8,7 +8,7 @@ public class Conexion {
     public static Connection getConnection(){
         Connection conexion = null;
         // Variables para conectarse a la base de datos
-        var baseDatos = "estudiantes2023";
+        var baseDatos = "estudiantes";
         var url = "jdbc:mysql://localhost:3306/"+baseDatos;
         var usuario = "root";
         var password = "admin";
