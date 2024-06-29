@@ -1,0 +1,184 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola",
+                "Hola, ¿cómo estás?",
+                "Buen día"
+            ],
+            "responses": [
+                "¡Hola! Bienvenido a Adoptame, ¿en qué puedo ayudarte hoy?",
+                "Hola, ¿cómo puedo ayudarte con la adopción de una mascota?",
+                "¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte?"
+            ]
+        },
+        {
+            "tag": "mascotas_disponibles",
+            "patterns": [
+                "¿Qué mascotas hay disponibles?",
+                "¿Qué animales puedo adoptar?",
+                "Me muestras las mascotas en adopcion?",
+                "Mostrar mascotas para adopción"
+            ],
+            "responses": [
+                "Actualmente, tenemos a Max, un perro labrador de 2 años; Luna, una gata siamesa de 1 año; y Bella, una coneja blanca de 3 meses.",
+                "En adopción tenemos a Rocky, un perro bulldog de 3 años; Nala, una gata persa de 2 años; y Coco, un periquito de 6 meses."
+            ]
+        },
+        {
+            "tag": "proceso_adopcion",
+            "patterns": [
+                "¿Cuáles son los pasos para adoptar una mascota?",
+                "Quiero adoptar, ¿qué debo hacer?",
+                "Cómo adoptar una mascota"
+            ],
+            "responses": [
+                "El proceso de adopción suele involucrar llenar un formulario de solicitud, una entrevista, y posiblemente una visita domiciliaria. ¿Te gustaría más información?",
+                "¡Genial! El proceso de adopción generalmente incluye algunos pasos básicos, como llenar una solicitud y conocer a la mascota. ¿Te gustaría que te explicara más?"
+            ]
+        },
+        {
+            "tag": "contacto",
+            "patterns": [
+                "¿Cuál es su número de teléfono?",
+                "¿Como me pongo en contacto?",
+                "¿Cómo puedo contactarlos?",
+                "Información de contacto"
+            ],
+            "responses": [
+                "Puedes contactarnos llamando al +1-555-123-4567 o enviándonos un correo electrónico a contacto@adoptame.com. ¡Estamos aquí para ayudarte!",
+                "Nuestro número de teléfono es +1-555-123-4567 y nuestro correo electrónico es contacto@adoptame.com. ¡No dudes en ponerte en contacto con nosotros para cualquier pregunta o consulta!"
+            ]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": [
+                "Gracias",
+                "Muchas gracias",
+                "Te agradezco"
+            ],
+            "responses": [
+                "¡De nada! Estoy aquí para ayudarte.",
+                "¡No hay problema! Si necesitas más ayuda, házmelo saber.",
+                "¡Con gusto! Si tienes más preguntas, estoy aquí."
+            ]
+        },
+        {
+            "tag": "horarios_atencion",
+            "patterns": [
+                "¿Cuáles son sus horarios de atención?",
+                "Horario de apertura",
+                "¿Cuándo están abiertos?"
+            ],
+            "responses": [
+                "Nuestros horarios de atención son de lunes a viernes de 9:00 AM a 6:00 PM y los sábados de 10:00 AM a 4:00 PM.",
+                "Estamos abiertos de lunes a viernes de 9:00 AM a 6:00 PM y los sábados de 10:00 AM a 4:00 PM."
+            ]
+        },
+        {
+            "tag": "ubicacion",
+            "patterns": [
+                "¿Dónde están ubicados?",
+                "Dirección",
+                "Donde esta el refugio?",
+                "¿Cuál es su dirección?"
+            ],
+            "responses": [
+                "Nos encontramos en Calle Falsa 123, Ciudad Ejemplo. ¡Ven a visitarnos!",
+                "Nuestra dirección es Calle Falsa 123, Ciudad Ejemplo. ¡Te esperamos!"
+            ]
+        },
+        {
+            "tag": "requisitos_adopcion",
+            "patterns": [
+                "¿Cuáles son los requisitos para adoptar?",
+                "Requisitos de adopción",
+                "Quiero adoptar una mascota",
+                "¿Qué necesito para adoptar una mascota?"
+            ],
+            "responses": [
+                "Para adoptar una mascota necesitas ser mayor de edad, llenar un formulario de adopción, y participar en una entrevista. También es posible que se realice una visita domiciliaria.",
+                "Los requisitos para adoptar una mascota incluyen ser mayor de edad, completar un formulario de adopción, y pasar por una entrevista. En algunos casos, también se realiza una visita domiciliaria."
+            ]
+        },
+        {
+            "tag": "donaciones",
+            "patterns": [
+                "¿Cómo puedo donar?",
+                "Quiero hacer una donación",
+                "¿Aceptan donaciones?",
+                "Quiero donar"
+            ],
+            "responses": [
+                "¡Gracias por tu interés en donar! Puedes hacer una donación contactándonos directamente al +1-555-123-4567.",
+                "Aceptamos donaciones a través de nuestra página web y también puedes contactarnos para más información al +1-555-123-4567. ¡Gracias por tu apoyo!"
+            ]
+        },
+        {
+            "tag": "voluntariado",
+            "patterns": [
+                "¿Cómo puedo ser voluntario?",
+                "Quiero ser voluntario",
+                "¿Aceptan voluntarios?"
+            ],
+            "responses": [
+                "¡Nos encantaría tenerte como voluntario! Puedes llenar el formulario de voluntariado en nuestra página web o contactarnos al +1-555-123-4567 para más detalles.",
+                "Para ser voluntario, visita nuestra página web y llena el formulario de voluntariado. También puedes contactarnos al +1-555-123-4567 para más información."
+            ]
+        },
+        {
+            "tag": "historias_exito",
+            "patterns": [
+                "Cuéntame una historia de éxito",
+                "Me cuentas una historia de adopcion?",
+                "¿Alguien ha adoptado recientemente?",
+                "Historias de adopción"
+            ],
+            "responses": [
+                "¡Claro! Hace poco, Thor encontró un hogar maravilloso con una familia que la adora. ¡Nos encanta ver a nuestras mascotas felices en sus nuevos hogares!",
+                "Recientemente, Trueno fue adoptado por una familia que ha estado buscando un compañero perfecto. ¡Es una historia muy inspiradora!"
+            ]
+        },
+        {
+            "tag": "conversacion",
+            "patterns": [
+                "¿Cómo estás?",
+                "¿Qué tal tu día?",
+                "¿Cómo va tu día?",
+                "Cuéntame algo"
+            ],
+            "responses": [
+                "¡Estoy muy bien, gracias por preguntar! ¿Y tú, cómo estás?",
+                "Mi día está yendo genial, ayudando a encontrar hogares para nuestras adorables mascotas. ¿En qué puedo ayudarte hoy?"
+            ]
+        },
+        {
+            "tag": "ayuda_uso",
+            "patterns": [
+                "¿Cómo uso esta aplicación?",
+                "Ayuda con el sitio web",
+                "No sé cómo hacer esto",
+                "Me ayudas a usar la aplicacion"
+            ],
+            "responses": [
+                "Para usar la aplicación, puedes navegar por las diferentes secciones usando el menú. Si necesitas más ayuda, no dudes en preguntar.",
+                "Puedes encontrar las mascotas disponibles en la sección de 'Adopción' y contactar con nosotros en la sección de 'Contacto'. ¿Necesitas más detalles sobre alguna sección?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Adiós",
+                "Hasta luego",
+                "Nos vemos",
+              "Hasta pronto"
+            ],
+            "responses": [
+                "¡Hasta luego! Espero haber sido de ayuda. ¡Que tengas un buen día!",
+                "Adiós, ¡cuídate! Si tienes más preguntas, aquí estaré para ayudarte.",
+                "Nos vemos, ¡espero que encuentres la mascota perfecta! ¡Buena suerte!"
+            ]
+        }
+    ]
+}
