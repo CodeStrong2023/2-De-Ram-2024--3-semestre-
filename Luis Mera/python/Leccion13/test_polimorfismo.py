@@ -3,12 +3,15 @@ from Gerente import Gerente
 
 
 def imprimir_detalles(objeto):
-    print(objeto)
+    # print(objeto)
     print(type(objeto))
+    print(objeto.mostrar_detalles())
+    if isinstance(objeto, Gerente):
+        print(objeto.departamento)
 
 
-empleado1 = Empleado("Juan", 200)
-imprimir_detalles(empleado1)
+empleado = Empleado('Ariel', 50000.00)
+imprimir_detalles(empleado)
 
-gerente = Gerente("Sistemas", "pedro", 2333)
+gerente = Gerente('Natalia', 60000, 'Sistemas')
 imprimir_detalles(gerente)

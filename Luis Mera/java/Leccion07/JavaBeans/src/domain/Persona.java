@@ -2,42 +2,46 @@ package domain;
 
 import java.io.Serializable;
 
-public class Persona implements Serializable {
+// requerimiento javabeans: serializable
+public class Persona implements Serializable{
+    // requerimiento javabeans: atributos tipo private
     private String nombre;
     private String apellido;
 
-    // El contructor vació es obligatorio
-    public Persona() {
+    // requerimiento javabeans: constructor vacío (obligatorio)
+    public Persona(){
 
     }
 
-    public Persona(String nombre, String apellido) {
+    // opcional
+    public Persona (String nombre, String apellido){
         this.nombre = nombre;
         this.apellido = apellido;
     }
 
+    // requerimientos javabeans: getters and setters
     public String getNombre() {
         return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
     }
 
     public String getApellido() {
         return apellido;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
 
+    // opcional
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Persona{");
-        sb.append("nombre='").append(nombre).append('\'');
-        sb.append(", apellido='").append(apellido).append('\'');
-        sb.append('}');
-        return sb.toString();
+        return "Persona [nombre=" + nombre + ", apellido=" + apellido + "]";
     }
+
+    
+    
 }

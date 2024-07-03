@@ -1,30 +1,42 @@
-from Orden import Orden
-
-
 class Producto:
-    contador_productos = 0
+    contador_productos = 0  # variable de clase
 
     def __init__(self, nombre, precio):
-        self.nombre = nombre
-        self.precio = precio
         Producto.contador_productos += 1
-        self.id_producto = Producto.contador_productos
+        self._id_producto = Producto.contador_productos  # asignacion desde la variable de clase
+        self._precio = precio
 
-    @property
-    def nombre(self):
-        return self.nombre
+# getter aand setters
 
-    @nombre.setter
-    def nombre(self, nombre):
-        self.nombre = nombre
 
-    @property
-    def precio(self):
-        return self.precio
+@property 
+def nombre(self):
+    return self._nombre
 
-    @precio.setter
-    def precio(self, precio):
-        self.precio = precio
 
-    def __str__(self):
-        return f"ID Producto: {self.id_producto}, Nombre: {self.nombre}, Precio: {self.precio}"
+@nombre.setter
+def nombre(self, nombre):
+    self._nombre = nombre
+
+
+@property
+def precio(self):
+    return self._precio
+
+
+@precio.setter
+def precio(self, precio):
+    self._precio = precio
+
+# metodo str
+
+
+def __str__(self):
+    return f'Id Producto: {self._id_producto}, Nombre: {self._nombre}, Precio: {self._precio}'
+
+
+if __name__ == '__main__':
+    producto1 = Producto('camiseta', 100.00)
+    print(producto1)
+    producto2 = Producto('Pantalon', 150.00)
+    print(producto2)

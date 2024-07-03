@@ -1,9 +1,8 @@
 package accesodatos;
 
 public interface IAccesoDatos {
-    int MAX_REGISTRO = 10;
-
-    // Método insertar es abstracto y sin cuerpo
+    int Max_Registro = 10;
+    // metodo insertar es abstracto y sin cuerpo
     void insertar();
 
     void listar();

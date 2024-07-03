@@ -1,35 +1,40 @@
-class MiClase:
-    #Variable de clase, este atributo dara a cada objeto el mismo valor
-    variable_clase= "Esta es una variable de clase"
-    def __init__(self,variable_instancia):#La variable de instancia, da diferentes valores
-        self.variable_instancia= variable_instancia
+class MiClase: 
+    # Variable de clase, este atributo dará a cada objeto el mismo valor
+    variable_clase = 'Esta es una variable de clase'
+    
+    def __init__(self, variable_instancia): #da otros valores
+        self.variable_instancia = variable_instancia
 
-    @staticmethod # Métodos estáticos
-    def metodo_statico():
+
+    @staticmethod
+    def metodo_estatico():
         print(MiClase.variable_clase)
 
     @classmethod
-    def metodo_clase(cls): #cls es una referencia a la clase
+    def metodo_clase(cls):
         print(cls.variable_clase)
-
+    
     def metodo_instancia(self):
-        print(self.metodo_clase())
-        print(self.metodo_statico())
+        self.metodo_clase()
+        self.metodo_estatico()
+        print(self.variable_clase)
+        print(self.variable_instancia)
+
 
 print(MiClase.variable_clase)
-miClase1= MiClase("Esto es una variable de instancia")
+miClase1 = MiClase('Esta es una variable de instancia')
 print(miClase1.variable_instancia)
+miClase2 = MiClase('Esta es la otra prueba de variable de instancia')
+print(miClase2.variable_clase)
 
-miClase2 = MiClase("Esto es otra prueba de variable de instancia")
-print(miClase2.variable_instancia)
+MiClase.variable_clase2 = 'valor de variable de clase 2'
+print(MiClase.variable_clase2)
+print(miClase1.variable_clase2)
+print(miClase2.variable_clase2)
 
-miClase2.variable_clase_2 = "Variable de clase 2"
-
-print(miClase2.variable_clase_2)
-
-MiClase.metodo_statico()
+MiClase.metodo_estatico()
 
 MiClase.metodo_clase()
-
-miobjeto1 = MiClase("Esto es una variable de instancia")
-miobjeto1.metodo_instancia()
+miObjeto1 = MiClase('variable de instancia')
+miObjeto1.metodo_clase()
+miObjeto1.metodo_instancia()

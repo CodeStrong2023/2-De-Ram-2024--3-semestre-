@@ -1,3 +1,0 @@
-Programamos con diferentes archivos 
-Con esto terminamos 
-Incorporamos la lectura de acentos para palabras como información 

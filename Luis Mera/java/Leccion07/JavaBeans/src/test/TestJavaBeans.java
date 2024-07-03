@@ -5,10 +5,12 @@ import domain.Persona;
 public class TestJavaBeans {
     public static void main(String[] args) {
         Persona persona = new Persona();
-        persona.setNombre("Jose");
-        System.out.println(persona.getNombre());
+        persona.setNombre("Juan");
+        persona.setApellido("Perez");    
+        System.out.println("Persona = " + persona);
 
-        persona.setApellido("Perez");
-        System.out.println(persona.getApellido());
+        System.out.println("Persona de nombre: " + persona.getNombre());
+        System.out.println("Persona de apellido: " + persona.getApellido());
     }
+
 }

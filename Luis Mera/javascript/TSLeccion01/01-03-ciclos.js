@@ -1,51 +1,61 @@
-// While
-
+//while
 let contador = 0;
-
-while (contador > 3) {
-  console.log(contador);
-  contador++;
+while(contador<3){
+    console.log(contador);
+    contador++;
 }
-
-console.log("Fin del ciclo while");
+console.log("Fin de ciclo while");
 
 // do while
 let conteo = 0;
-do {
-  console.log(conteo);
-  conteo++;
-} while (conteo < 3);
+do{
+    console.log(conteo);
+    conteo++;
+}while(conteo < 3);
+console.log("Fin de ciclo while");
 
-console.log("Fin del ciclo do while");
-
-// For
-
-for (let contador = 0; contador < 3; contador++) {
-  console.log(contador);
+//for
+for(let contando = 0; contando < 3; contando++){
+    console.log(contando);
 }
 
-console.log("Fin del ciclo for");
+console.log("fin ciclo for")
 
-// Palabra reservada break
-for (let contador = 0; contador < 10; contador++) {
-  if (contador % 2 === 0) {
-    console.log(contador);
+//break
+for(let contando = 0; contando <= 10; contando++ ){
+
+    if(contando % 2==0){
+        console.log(contando);
+        break;
+    }
+}
+console.log("fin del ciclo for")
+
+do{
+    console.log(conteo);
+    conteo++;
     break;
-  }
-}
+}while(conteo < 3);
+console.log("Fin de ciclo while");
 
-// Palabra reservada continue
-for (let contador = 0; contador < 10; contador++) {
-  if (contador % 2 !== 0) {
-    console.log(contador);
-    continue;
-  }
-}
+// continue
 
-// Etiqueta label
-inicio: for (let contador = 0; contador < 10; contador++) {
-  if (contador % 2 !== 0) {
-    console.log(contador);
-    break inicio;
-  }
+for(let contando = 0; contando <= 10; contando++){
+
+    if(contando % 2!==0){
+        continue; // continua a la siguien iteración
+    }
+    console.log(contando)
 }
+console.log("termina el ciclo")
+
+// etiquetas labels
+inicio:
+for(let contando = 0; contando <= 10; contando++){
+
+    if(contando % 2!==0){
+        break inicio; // continua a la siguien iteración
+    }
+    console.log(contando)
+}
+console.log("termina el ciclo")
