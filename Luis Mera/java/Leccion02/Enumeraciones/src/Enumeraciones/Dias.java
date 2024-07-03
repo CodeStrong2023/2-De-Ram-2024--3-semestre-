@@ -1,5 +1,11 @@
-package Enumeraciones;
+package enumeraciones;
 
 public enum Dias {
-    LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO, DOMINGO;
+    Lunes,
+    Martes,
+    Miercoles,
+    Jueves,
+    Viernes,
+    Sabado,
+    Domingo;
 }

@@ -1,39 +1,32 @@
 package domain;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class Persona {
+public class Persona{
     private final int idPersona;
     private static int contadorPersonas;
-
-    //Bloque de inicializacion estatico
-    static {
-        System.out.println("Ejecucion bloque estatico");
+    
+    static { //Bloque de inicialización Estatico
+        System.out.println("Ejecución del bloque estático");
         ++Persona.contadorPersonas;
+        //idPersona = 10; No es estático por esto tenemos un error
     }
-
-
-    //Bloque de inicializacion dinamico
-    {
-        System.out.println("Ejecucion de bloque No estatico");
-        this.idPersona = Persona.contadorPersonas++;//Incrementamos el atributo
+    
+    { //Bloque de inicialización NO estatico o conexto dinámico
+        System.out.println("Ejecución del bloque NO estático");
+        this.idPersona = Persona.contadorPersonas++; //Incrementamos el atributo
     }
-
-    //Los bloques de inicializacion se ejecutan antes del constructor
-    public Persona() {
-        System.out.println("Ejecucion del constructor");
+    //Estos bloques se ejecutan antes del contador
+    
+    public Persona(){
+        System.out.println("Ejecución del constructor");
     }
-
-    public int getIdPersona() {
+    
+    public int getIdPersona(){
         return this.idPersona;
     }
 
     @Override
     public String toString() {
-        return "Persona{" +
-                "idPersona=" + idPersona +
-                '}';
+        return "Persona{" + "idPersona=" + idPersona + '}';
     }
-
-
+    
 }
